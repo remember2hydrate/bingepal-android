@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#FAFAFA"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pick a category"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:id="@+id/catMovies"
+        style="@style/CategoryText"
+        android:text="Movies"
+        android:tag="movie" />
+
+    <TextView
+        android:id="@+id/catSeries"
+        style="@style/CategoryText"
+        android:text="Series"
+        android:tag="series" />
+
+    <TextView
+        android:id="@+id/catAnime"
+        style="@style/CategoryText"
+        android:text="Anime"
+        android:tag="anime" />
+
+    <TextView
+        android:id="@+id/catGames"
+        style="@style/CategoryText"
+        android:text="Games"
+        android:tag="game" />
+
+    <TextView
+        android:id="@+id/catManga"
+        style="@style/CategoryText"
+        android:text="Manga"
+        android:tag="manga" />
+
+    <TextView
+        android:id="@+id/catBooks"
+        style="@style/CategoryText"
+        android:text="Books"
+        android:tag="book" />
+</LinearLayout>
